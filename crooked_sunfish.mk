@@ -36,4 +36,7 @@ BUILD_FINGERPRINT := "google/sunfish/sunfish:12/SP2A.220505.002/8353555:user/rel
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/sunfish/sunfish:12/SP2A.220505.002/8353555:user/release-keys
 
+$(call inherit-product, vendor/google/sunfish/sunfish-vendor.mk)
+
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
