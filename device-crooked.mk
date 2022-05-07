@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Kernel Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := device/google/sunfish/sm7150/kernel-headers
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-crooked
 
