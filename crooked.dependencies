@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_kernel_google_msm-4.14",
-    "target_path": "kernel/google/msm-4.14"
-  }
+      "repository": "android_kernel_google_msm-4.14",
+      "target_path": "kernel/google/msm-4.14"
+      "branch":"cr1",
+      "remote":"ca"
+   },
+   {
+      "repository":"CrookedAndroid/vendor_google_sunfish",
+      "target_path":"vendor/google/sunfish",
+      "branch":"cr1",
+      "remote":"gitlab"
+   }
 ]
