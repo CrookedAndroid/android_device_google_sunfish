@@ -15,11 +15,11 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=6099722
+BUILD=eng.nobody
 DEVICE=sunfish
-PRODUCT=sunfish
-VERSION=qd4a.191227.001
-SRCPREFIX=signed-
+PRODUCT=crooked_sunfish
+VERSION=Q3A.220605.009.B1
+SRCPREFIX=../../../../out/target/product/sunfish/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=s5-0.2-6085901
 RADIO=g7150-00164.2-191220-B-6089074
 source ../../../common/generate-factory-images-common.sh
