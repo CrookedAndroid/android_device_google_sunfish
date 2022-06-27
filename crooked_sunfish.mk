@@ -17,6 +17,9 @@ include device/google/sunfish/device-crooked.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
